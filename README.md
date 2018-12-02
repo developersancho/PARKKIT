@@ -1,6 +1,6 @@
 # PARKKIT
 
-* MVVM, RxJava, RxAndroid, DataBinding, Lottie
+* MVVM, RxJava, RxAndroid, DataBinding, Lottie, Timber
 * Material Design, CircleImageView, Room, RxRoom, SQLite
 * Retrofit, OkHttp, Gson, BroadcastReceiver, LiveData
 * Singleton, Dexter-Runtime Permission, Debug-Db, RxGPS
