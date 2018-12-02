@@ -6,5 +6,5 @@
 * Singleton, Dexter-Runtime Permission, Debug-Db, RxGPS
 * Google Maps, Icon-Switch, SpinKit, ShapeOfView
 
-# After we will add 
+### After we will add 
 * dagger2 and Kotlin
