@@ -1,0 +1,176 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "developersancho.parkkit"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField("String", "BASE_URL", "\"http://api.developersancho.com/v1/\"")
+            buildConfigField("String", "API_KEY", "\"e3cd1f4c-1296-43ea-8d12-07661145119b\"")
+            buildConfigField("String", "MAP_API_KEY", "\"AIzaSyDhJ6zv58RbHyj-E7yH8j7TS1V6z2oX0WU\"")
+        }
+
+        debug {
+            buildConfigField("String", "BASE_URL", "\"http://api.developersancho.com/v1/\"")
+            buildConfigField("String", "API_KEY", "\"e3cd1f4c-1296-43ea-8d12-07661145119b\"")
+            buildConfigField("String", "MAP_API_KEY", "\"AIzaSyDhJ6zv58RbHyj-E7yH8j7TS1V6z2oX0WU\"")
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == "com.android.support") {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion "26.+"
+                }
+            }
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+
+    buildToolsVersion '28.0.3'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
+    implementation 'androidx.annotation:annotation:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha01'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+    // spots dialog
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+
+    // shapeOfView
+    implementation 'com.github.florent37:shapeofview:1.4.5'
+
+    // Gson
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    // circle imageview
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    // rounded imageview
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    // ken burns view
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+
+    // ripple effect
+    implementation 'com.patrickpissurno:ripple-effect:1.3.1'
+
+    // retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+
+    // OkHttp interceptors for logging
+    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.11.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.11.0'
+
+    // rxjava-rxandroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.0'
+
+    // ViewModel and LiveData
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    // Timber for Logger
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    // glide
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+
+    // room
+    implementation 'androidx.room:room-runtime:2.0.0'
+    annotationProcessor "androidx.room:room-compiler:2.0.0"
+
+    // optional - RxJava support for Room
+    implementation 'androidx.room:room-rxjava2:2.0.0'
+
+    // paging
+    implementation 'androidx.paging:paging-runtime:2.0.0'
+
+    // optional - RxJava support
+    implementation 'androidx.paging:paging-rxjava2:2.0.0'
+
+    // workmanager
+    implementation 'android.arch.work:work-runtime:1.0.0-alpha11'
+
+    // optional - Firebase JobDispatcher support
+    implementation 'android.arch.work:work-firebase:1.0.0-alpha11'
+
+    // dependency injection
+    implementation 'com.google.dagger:dagger:2.16'
+    annotationProcessor "com.google.dagger:dagger-compiler:2.16"
+    annotationProcessor "com.google.dagger:dagger-android-processor:2.16"
+    implementation 'com.google.dagger:dagger-android-support:2.16'
+
+    // spinkit for loading
+    implementation 'com.github.ybq:Android-SpinKit:1.1.0'
+
+    // IconSwitch
+    implementation 'com.polyak:icon-switch:1.0.0'
+
+    // google map
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    //implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+
+    // permission
+    implementation 'com.karumi:dexter:5.0.0'
+
+    // lottie animation
+    implementation 'com.airbnb.android:lottie:2.8.0'
+
+    // for find location
+    implementation 'com.github.florent37:rxgps:1.0.2'
+
+    // debug database
+    debugImplementation "com.amitshekhar.android:debug-db:1.0.4"
+
+    // flashbar
+    //implementation 'com.andrognito.flashbar:flashbar:1.0.1'
+
+    // alerter
+    implementation 'com.tapadoo.android:alerter:2.0.3'
+
+    // sweet alert dialog
+    implementation 'cn.pedant.sweetalert:library:1.3'
+
+    // sneaker
+    implementation 'com.irozon.sneaker:sneaker:1.0.3'
+
+    // alert view
+    implementation 'com.irozon.alertview:alertview:1.0.1'
+
+}

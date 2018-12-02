@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PARKKIT</string>
+
+    <string name="locationUserTitle">Buradayım</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="offline">Şu an ÇEVRİMDIŞISIN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="online">Şu an ÇEVRİMİÇİSİN</string>
+
+    <string name="gpsmessage">GPS Kapalı. Açmak İstermisin?</string>
+    <string name="gpsOK">GPS AÇ</string>
+
+    <string name="datanotfoundmessage">İstasyon Bulunamadı</string>
+    <string name="datanotfoundOK">Anasayfaya Git</string>
+    <string name="bank_atm_title">ATM BANKA</string>
+    <string name="car_service_title">OTO SERVIS</string>
+    <string name="car_wash_title">OTO YIKAMA</string>
+    <string name="gas_station_title">AKARYAKIT</string>
+    <string name="parkkit_title">PARKKIT</string>
+    <string name="akaryakit_home_title">AKARYAKIT</string>
+    <string name="atm_banka_home_title">ATM-BANKA</string>
+    <string name="otopark_home_title">OTOPARK</string>
+    <string name="oto_yikama_home_title">OTO YIKAMA</string>
+    <string name="oto_service_home_title">OTO SERVİS</string>
+    <string name="parking_title">OTOPARK</string>
+</resources>

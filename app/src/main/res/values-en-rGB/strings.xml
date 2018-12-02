@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PARKKIT</string>
+    <string name="locationUserTitle">I am Here</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="offline">You are OFFLINE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="online">You are ONNLINE</string>
+
+    <string name="gpsmessage">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="gpsOK">Enable GPS</string>
+
+    <string name="datanotfoundmessage">Could not found any place?</string>
+    <string name="datanotfoundOK">Goto Home Page</string>
+    <string name="bank_atm_title">BANK ATM</string>
+    <string name="car_service_title">CAR SERVICE</string>
+    <string name="car_wash_title">CAR WASH</string>
+    <string name="gas_station_title">GAS STATION</string>
+    <string name="parkkit_title">PARKKIT</string>
+    <string name="akaryakit_home_title">FUEL-OIL</string>
+    <string name="atm_banka_home_title">ATM-BANK</string>
+    <string name="otopark_home_title">PARKING</string>
+    <string name="oto_yikama_home_title">CAR WASH</string>
+    <string name="oto_service_home_title">CAR SERVICE</string>
+    <string name="parking_title">PARKING</string>
+</resources>

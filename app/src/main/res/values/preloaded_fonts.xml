@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/andika</item>
+        <item>@font/changa_semibold</item>
+        <item>@font/droid_sans_bold</item>
+        <item>@font/nova_square</item>
+        <item>@font/proza_libre_semibold</item>
+        <item>@font/roboto_mono_medium</item>
+        <item>@font/roboto_slab_bold</item>
+    </array>
+</resources>

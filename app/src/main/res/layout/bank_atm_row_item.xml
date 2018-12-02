@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="bankatm"
+            type="developersancho.parkkit.data.model.api.bankatm.BankAtm" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBankAtm"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/accountant"
+                        app:riv_border_color="#FFF"
+                        app:riv_border_width="0dip" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="6">
+
+                    <TextView
+                        android:id="@+id/textBankAtmName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@{ bankatm.name }"
+                        android:textColor="@color/black_effective"
+                        android:textSize="13sp"
+                        android:textStyle="normal"
+                        tools:text="Bahçelievler İş Bankası" />
+
+                    <TextView
+                        android:id="@+id/textBankAtmDistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textBankAtmName"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:textColor="@color/black_effective"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:distance="@{ bankatm.distance }"
+                        tools:text="2 km" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/viewLine"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

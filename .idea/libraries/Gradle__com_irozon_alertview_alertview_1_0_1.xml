@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.irozon.alertview:alertview-1.0.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-alertview-1.0.1.aar/098a16abeb4c423af99353f3c74f64f2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-alertview-1.0.1.aar/098a16abeb4c423af99353f3c74f64f2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.irozon.alertview/alertview/1.0.1/3b5735f087aa795df99f9872ffc64324f1f8ec9c/alertview-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

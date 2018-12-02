@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E2BE1</color>
+    <color name="colorPrimaryDark">#0E2BE1</color>
+    <color name="colorAccent">#e10e2b</color>
+
+    <color name="edit_text_stroke">#ffd1d1d1</color>
+
+    <color name="background1">#e6eaf2</color>
+    <color name="background2">#f5f7fa</color>
+    <color name="border1">#cfd6e5</color>
+    <color name="border2">#e6eaf2</color>
+
+    <color name="dark">#45474c</color>
+    <color name="grey">#7a8599</color>
+    <color name="light_gray">#dbdbdb</color>
+    <color name="gray">#7e7e7e</color>
+    <color name="semi_gray">#979797</color>
+    <color name="dark_gray">#696969</color>
+    <color name="light">#a3acbf</color>
+    <color name="red">#f24949</color>
+    <color name="green">#8dd941</color>
+    <color name="orange">#f2883d</color>
+
+    <color name="menubackground">#bfbfbf</color>
+    <color name="orange2">#e96327</color>
+    <color name="darkblue">#2e5a76</color>
+    <color name="ghostwhite">#f2f3fa</color>
+    <color name="ghost">#d1d1d3</color>
+    <color name="jagger">#3e3842</color>
+    <color name="radicalred">#fe3466</color>
+    <color name="ivory">#fdfdfc</color>
+    <color name="persianindigo">#3916a1</color>
+    <color name="whitelilac">#ecebed</color>
+    <color name="kashmirblue">#596c8c</color>
+    <color name="summersky">#2da6cd</color>
+    <color name="lavenderblush">#f8f1f3</color>
+    <color name="gainsboro">#e3e0e0</color>
+    <color name="fiord">#585a5b</color>
+    <color name="cloudy">#a2a09e</color>
+    <color name="brightgrey">#515963</color>
+    <color name="slategrey">#738191</color>
+    <color name="heather">#aab5c0</color>
+    <color name="lightslategrey">#82909f</color>
+    <color name="selago">#f8f7f8</color>
+    <color name="linkwater">#d3d4d5</color>
+    <color name="paco">#453e3b</color>
+    <color name="bronco">#a6937b</color>
+    <color name="jaguar">#282832</color>
+    <color name="amethystsmoke">#9d989e</color>
+    <color name="titanwhite">#d6d2db</color>
+
+    <color name="black_effective">#2a2a2a</color>
+    <color name="shadow">#d0d8dc</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent_white">#88ffffff</color>
+    <color name="fb">#3b5998</color>
+    <color name="google">#d34836</color>
+
+</resources>

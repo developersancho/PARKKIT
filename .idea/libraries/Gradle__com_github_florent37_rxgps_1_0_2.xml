@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.florent37:rxgps-1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-rxgps-1.0.2.aar/856e1a665642602716cb6cfc6c823c3f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-rxgps-1.0.2.aar/856e1a665642602716cb6cfc6c823c3f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/rxgps/1.0.2/f6aca92b90854de7c4e148b596c1bb4807d0831c/rxgps-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
