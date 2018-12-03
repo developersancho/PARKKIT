@@ -7,10 +7,13 @@
 * Singleton, Dexter-Runtime Permission, Debug-Db, RxGPS
 * Google Maps, Icon-Switch, SpinKit, ShapeOfView
 
-### After we will add 
+### Next we will add 
 * dagger2 and Kotlin
 
-## ScreenShot
+## ScreenShoot
 * https://github.com/developersancho/PARKKIT/blob/master/captures/Screenshot_1543765223.png
 
 * https://github.com/developersancho/PARKKIT/blob/master/captures/Screenshot_1543765313.png
+
+### On Play Store 
+* https://play.google.com/store/apps/details?id=developersancho.parkkit
