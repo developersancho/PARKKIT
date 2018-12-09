@@ -2,18 +2,8 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <device id="Galaxy Nexus" />
-        <device id="pixel_xl" />
-        <device id="pixel_2_xl" />
-        <device id="Nexus 6P" />
-      </config>
+      <config />
     </shared>
-  </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Location" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -21,66 +11,47 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4511844e-d7b7-47ef-832c-e0bf5b91ea95" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_haha_haha_2_0_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_analyzer_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_support_fragment_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_watcher_1_6_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_cketti_mailto_email_intent_builder_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_trove4j_trove4j_20160824_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/IMenuNavigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExpandableListAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExpandedMenuModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExtendedSubMenuModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/NavigationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/transculent_enter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/transculent_exit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/transculent_pop_enter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/transculent_pop_exit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider_horizontal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_asagi_ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_ayarlar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_yukari_ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_contact_card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_rate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/menu_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/menu_bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/menu_bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/menu_bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/menu_bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/menu_bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_menu_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_submenu_item.xml" afterDir="false" />
+    <list default="true" id="d7172904-6665-47a4-98b1-2697af496b06" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_directions_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_location_city_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_map_marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_penguin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_radar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_detail.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ParkKitApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ParkKitApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmList/BankAtmListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmList/BankAtmListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmMap/BankAtmMapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmMap/BankAtmMapFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carservice/carserviceList/CarServiceListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carservice/carserviceList/CarServiceListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carservice/carserviceMap/CarServiceMapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carservice/carserviceMap/CarServiceMapFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carwash/carwashList/CarWashListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carwash/carwashList/CarWashListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carwash/carwashMap/CarWashMapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carwash/carwashMap/CarWashMapFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/gasList/GasListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/gasList/GasListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/gasMap/GasMapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/gasMap/GasMapFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/main/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/main/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/splash/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/splash/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/parkList/ParkListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/parkList/ParkListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/parkMap/ParkMapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/parkMap/ParkMapFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bank_atm_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bank_atm_map.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_car_service_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_car_service_map.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_car_wash_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_car_wash_map.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gas_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gas_map.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_park_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_park_map.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-en-rUS/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-en-rUS/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-tr-rTR/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-tr-rTR/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
@@ -104,154 +75,20 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MenuActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-              <folding>
-                <element signature="method#getViewModel#0;class#MenuActivity#0" />
-                <element signature="method#prepareListData#0;class#MenuActivity#0" />
-                <element signature="e#5652#5681#0" expanded="true" />
-                <element signature="e#6012#6044#0" expanded="true" />
-                <element signature="e#6386#6420#0" expanded="true" />
-                <element signature="e#6755#6788#0" expanded="true" />
-                <element signature="method#newIntent#0;class#MenuActivity#0" />
-                <element signature="method#onStart#0;class#MenuActivity#0" />
-                <element signature="method#registerReceiverGps#0;class#MenuActivity#0" />
-                <element signature="method#registerReceiverInternet#0;class#MenuActivity#0" />
-                <element signature="method#onBackPressed#0;class#MenuActivity#0" />
-                <element signature="method#onDestroy#0;class#MenuActivity#0" />
-                <element signature="method#onDrawerSlide#0;class#MenuActivity#0" />
-                <element signature="method#onDrawerOpened#0;class#MenuActivity#0" />
-                <element signature="method#onDrawerClosed#0;class#MenuActivity#0" />
-                <element signature="method#onDrawerStateChanged#0;class#MenuActivity#0" />
-                <element signature="class#GroupCollapse#0;class#MenuActivity#0" />
-                <element signature="class#GroupExpand#0;class#MenuActivity#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParkKitApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ParkKitApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_menu.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-              <folding>
-                <element signature="e#2413#2433#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="e#585#621#0" expanded="true" />
-                <element signature="e#1088#1142#0" expanded="true" />
-                <element signature="e#1424#1540#0" expanded="true" />
-                <element signature="e#1721#1848#0" expanded="true" />
-                <element signature="e#2519#2572#0" expanded="true" />
-                <element signature="e#2647#2695#0" expanded="true" />
-                <element signature="e#3376#3438#0" expanded="true" />
-                <element signature="e#3513#3570#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/CommonUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="method#loadJSONFromAsset#0;class#CommonUtils#0" />
-                <element signature="method#showLoadingDialog#0;class#CommonUtils#0" />
-                <element signature="method#setRandomMaterialColorByType#0;class#CommonUtils#0" />
-                <element signature="method#setCache#0;class#CommonUtils#0" />
-                <element signature="method#getAddressText#0;class#CommonUtils#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_menu_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_menu_item.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#checkGPS#0;class#MenuFragment#0" />
-                <element signature="method#findLocation#0;class#MenuFragment#0" />
-                <element signature="method#findLocationAddress#0;class#MenuFragment#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>roboto_mono_medium</find>
-    </findStrings>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/ParkKitKeyStore" />
+    <option name="KEY_ALIAS" value="parkkitkeystore" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -300,6 +137,10 @@
                 <option name="description" value="Displays the sub-projects of root project 'PARKKIT'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesAndResourcesWithProguardForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -900,10 +741,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformDexArchiveWithExternalLibsDexMergerForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1211,6 +1048,10 @@
                 <option name="description" value="Displays the sub-projects of project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="transformClassesAndResourcesWithProguardForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1803,10 +1644,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="checkDebugClasspath" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="transformDexArchiveWithExternalLibsDexMergerForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2611,33 +2448,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/main/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/divider_horizontal.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/divider_horizontal.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_submenu_item.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExpandedMenuModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExtendedSubMenuModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExpandableListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/IMenuNavigator.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/splash/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppConstants.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_menu_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_directions_24dp.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmMap/BankAtmMapFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_car_service_map.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carservice/carserviceMap/CarServiceMapFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_car_wash_map.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carwash/carwashMap/CarWashMapFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_gas_map.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_park_map.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/gasMap/GasMapFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/parkMap/ParkMapFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmList/BankAtmListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carservice/carserviceList/CarServiceListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carwash/carwashList/CarWashListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/gasList/GasListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/parkList/ParkListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-en-rUS/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-tr-rTR/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/NavigationUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ParkKitApp.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/CommonUtils.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/main/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
       </list>
     </option>
   </component>
@@ -2654,6 +2489,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2663,54 +2501,25 @@
             </path>
             <path>
               <item name="PARKKIT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="PARKKIT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="parkkit" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PARKKIT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="parkkit" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PARKKIT" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.project.structure.last.selected" value="app" />
-    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android-sdk" />
-    <property name="device.picker.selection" value="b5779683" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="device.picker.selection" value="192.168.0.13:5555" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="android.template.packageName">
-      <recent name="developersancho.parkkit.ui.menu" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2829,520 +2638,512 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4511844e-d7b7-47ef-832c-e0bf5b91ea95" name="Default" comment="" />
-      <created>1544115807073</created>
+      <changelist id="d7172904-6665-47a4-98b1-2697af496b06" name="Default" comment="" />
+      <created>1544368305954</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544115807073</updated>
+      <updated>1544368305954</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.72740114" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Preview" weight="0.3297568" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46468925" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Logcat" />
       <window_info id="Captures" order="2" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32909605" />
-      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="bottom" id="Build" weight="0.32909605" />
+      <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32909605" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Build Variants" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Captures" order="6" weight="0.25" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Preview" order="0" weight="0.3297568" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="right" id="Gradle" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>marker.getTitle()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/nova_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/droid_sans_bold.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/changa_semibold.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/andika.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/font/roboto_slab_bold.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExpandedMenuModel.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0-alpha01/a7002909ba5ae6ef6370f68c9c5abd83182c6499/material-1.1.0-alpha01-sources.jar!/com/google/android/material/bottomsheet/BottomSheetBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExpandableListAdapter.java">
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/5882a113d15b8e009b3795fb1fdd25c7/res/values/values.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="222">
+          <caret line="1745" column="17" selection-start-line="1745" selection-start-column="17" selection-end-line="1745" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/navigation/ExtendedSubMenuModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/IMenuNavigator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/data_bındıng_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/developersancho/parkkit/databinding/FragmentMenuBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/GpsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/GasStationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuViewModel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_directions_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/main/IMainNavigator.java">
+    <entry file="file://$USER_HOME$/Android-sdk/sources/android-28/android/widget/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="975">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/main/MainViewModel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmMap/BankAtmMapViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/base/BaseViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-          <folding>
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bank_atm_row_item.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="708" column="34" selection-start-line="708" selection-start-column="34" selection-end-line="708" selection-end-column="34" />
+        <state relative-caret-position="265">
+          <caret line="39" column="57" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/data/model/api/carservice/CarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_car_service_map.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/car_service_row_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carservice/carserviceMap/CarServiceMapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="228" column="64" selection-start-line="228" selection-start-column="64" selection-end-line="228" selection-end-column="64" />
+          <folding>
+            <element signature="method#subscribeToCarServiceList#0;class#CarServiceMapFragment#0" />
+            <element signature="method#displayDataOnMap#0;class#CarServiceMapFragment#0" />
+            <element signature="method#pinMyLocation#0;class#CarServiceMapFragment#0" />
+            <element signature="method#setUpUI#0;class#CarServiceMapFragment#0" />
+            <element signature="method#initBottomSheetDetail#0;class#CarServiceMapFragment#0" />
+            <element signature="e#6788#6816#0" expanded="true" />
+            <element signature="e#7584#7611#0" expanded="true" />
+            <element signature="e#7642#7669#0" expanded="true" />
+            <element signature="e#8875#8902#0" expanded="true" />
+            <element signature="method#onMapReady#0;class#CarServiceMapFragment#0" />
+            <element signature="e#9412#9449#0" expanded="true" />
+            <element signature="method#onMarkerClick#0;class#CarServiceMapFragment#0" />
+            <element signature="method#onMapClick#0;class#CarServiceMapFragment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_bank_atm_map.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/car_wash_row_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_car_wash_map.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_gas_map.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_park_map.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carwash/carwashMap/CarWashMapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+          <folding>
+            <element signature="method#subscribeToCarWashList#0;class#CarWashMapFragment#0" />
+            <element signature="method#displayDataOnMap#0;class#CarWashMapFragment#0" />
+            <element signature="e#4350#4387#0" expanded="true" />
+            <element signature="method#initBottomSheetDetail#0;class#CarWashMapFragment#0" />
+            <element signature="e#6549#6577#0" expanded="true" />
+            <element signature="e#7345#7372#0" expanded="true" />
+            <element signature="e#7403#7430#0" expanded="true" />
+            <element signature="e#8636#8663#0" expanded="true" />
+            <element signature="e#9305#9342#0" expanded="true" />
+            <element signature="method#onMarkerClick#0;class#CarWashMapFragment#0" />
+            <element signature="method#onMapClick#0;class#CarWashMapFragment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/data/model/api/gasstation/Gas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/gas_row_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/gasMap/GasMapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="234" column="55" selection-start-line="234" selection-start-column="55" selection-end-line="234" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onViewCreated#0;class#GasMapFragment#0" />
+            <element signature="method#subscribeToGasList#0;class#GasMapFragment#0" />
+            <element signature="method#displayDataOnMap#0;class#GasMapFragment#0" />
+            <element signature="method#pinMyLocation#0;class#GasMapFragment#0" />
+            <element signature="method#setUpUI#0;class#GasMapFragment#0" />
+            <element signature="method#initBottomSheetDetail#0;class#GasMapFragment#0" />
+            <element signature="e#6531#6559#0" expanded="true" />
+            <element signature="e#7327#7354#0" expanded="true" />
+            <element signature="e#7385#7412#0" expanded="true" />
+            <element signature="e#8618#8645#0" expanded="true" />
+            <element signature="e#9291#9328#0" expanded="true" />
+            <element signature="method#onMarkerClick#0;class#GasMapFragment#0" />
+            <element signature="method#onMapClick#0;class#GasMapFragment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/data/model/api/parking/Park.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/parking.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0-alpha01/a7002909ba5ae6ef6370f68c9c5abd83182c6499/material-1.1.0-alpha01-sources.jar!/com/google/android/material/card/MaterialCardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/parkMap/ParkMapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="245" column="63" selection-start-line="245" selection-start-column="63" selection-end-line="245" selection-end-column="63" />
+          <folding>
+            <element signature="method#onCreate#0;class#ParkMapFragment#0" />
+            <element signature="method#onViewCreated#0;class#ParkMapFragment#0" />
+            <element signature="method#subscribeToParkList#0;class#ParkMapFragment#0" />
+            <element signature="method#displayDataOnMap#0;class#ParkMapFragment#0" />
+            <element signature="method#pinMyLocation#0;class#ParkMapFragment#0" />
+            <element signature="e#4812#4849#0" expanded="true" />
+            <element signature="method#setUpUI#0;class#ParkMapFragment#0" />
+            <element signature="method#initBottomSheetDetail#0;class#ParkMapFragment#0" />
+            <element signature="e#7169#7197#0" expanded="true" />
+            <element signature="e#7965#7992#0" expanded="true" />
+            <element signature="e#8023#8050#0" expanded="true" />
+            <element signature="e#9256#9283#0" expanded="true" />
+            <element signature="method#onMapReady#0;class#ParkMapFragment#0" />
+            <element signature="method#checkPermission#0;class#ParkMapFragment#0" />
+            <element signature="method#onInfoWindowClick#0;class#ParkMapFragment#0" />
+            <element signature="e#10320#10357#0" expanded="true" />
+            <element signature="method#showBottomSheetDialog#0;class#ParkMapFragment#0" />
+            <element signature="method#onMarkerClick#0;class#ParkMapFragment#0" />
+            <element signature="method#onMapClick#0;class#ParkMapFragment#0" />
+            <element signature="method#handleError#0;class#ParkMapFragment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet_detail.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="131" column="30" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_detail.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmMap/BankAtmMapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="193" column="29" selection-start-line="180" selection-start-column="28" selection-end-line="193" selection-end-column="29" />
+          <folding>
+            <element signature="method#subscribeToBankAtmList#0;class#BankAtmMapFragment#0" />
+            <element signature="method#displayDataOnMap#0;class#BankAtmMapFragment#0" />
+            <element signature="method#pinMyLocation#0;class#BankAtmMapFragment#0" />
+            <element signature="method#setUpUI#0;class#BankAtmMapFragment#0" />
+            <element signature="method#onMapReady#0;class#BankAtmMapFragment#0" />
+            <element signature="method#onInfoWindowClick#0;class#BankAtmMapFragment#0" />
+            <element signature="method#showBottomSheetDialog#0;class#BankAtmMapFragment#0" />
+            <element signature="method#onMarkerClick#0;class#BankAtmMapFragment#0" />
+            <element signature="method#onMapClick#0;class#BankAtmMapFragment#0" />
+            <element signature="method#handleError#0;class#BankAtmMapFragment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/data/model/api/bankatm/BankAtm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+          <folding>
+            <element signature="e#3057#3058#0" expanded="true" />
+            <element signature="e#3085#3086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android-sdk/sources/android-28/android/view/LayoutInflater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="226" column="33" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/parkList/ParkListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="478">
+          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
+            <element signature="e#3866#3867#0" expanded="true" />
+            <element signature="method#showDetailDialog#0;class#ParkListFragment#0" />
+            <element signature="e#5032#5661#0" />
+            <element signature="e#5644#5672#0" expanded="true" />
+            <element signature="e#5864#5892#0" expanded="true" />
+            <element signature="e#5706#6518#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/main/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/gasstation/gasList/GasListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="523">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
           <folding>
-            <element signature="method#findLocationAddress#0;class#MainActivity#0" />
+            <element signature="e#3730#3731#0" expanded="true" />
+            <element signature="e#3764#3765#0" expanded="true" />
+            <element signature="method#showDetailDialog#0;class#GasListFragment#0" />
+            <element signature="e#4840#5469#0" />
+            <element signature="e#5522#5550#0" expanded="true" />
+            <element signature="e#5742#5770#0" expanded="true" />
+            <element signature="e#5514#6326#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/base/BaseSwitchActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carwash/carwashList/CarWashListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/park/ParkActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/transculent_enter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/base/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/splash/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android-sdk/sources/android-28/android/widget/ExpandableListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_home.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_submenu_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="202" column="80" selection-start-line="202" selection-start-column="36" selection-end-line="202" selection-end-column="80" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+        <state relative-caret-position="88">
+          <caret line="112" column="50" lean-forward="true" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#checkGPS#0;class#MenuFragment#0" />
-            <element signature="method#findLocation#0;class#MenuFragment#0" />
-            <element signature="method#findLocationAddress#0;class#MenuFragment#0" />
+            <element signature="e#3737#3738#0" expanded="true" />
+            <element signature="e#3771#3772#0" expanded="true" />
+            <element signature="e#5022#5651#0" />
+            <element signature="e#5624#5652#0" expanded="true" />
+            <element signature="e#5844#5872#0" expanded="true" />
+            <element signature="e#5696#6508#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_menu_item.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/carservice/carserviceList/CarServiceListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en-rUS/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="35" selection-end-column="50" />
+        <state relative-caret-position="436">
+          <caret line="162" column="5" selection-start-line="109" selection-start-column="4" selection-end-line="162" selection-end-column="5" />
+          <folding>
+            <element signature="e#3760#3761#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#4876#5505#0" />
+            <element signature="e#5552#5580#0" expanded="true" />
+            <element signature="e#5772#5800#0" expanded="true" />
+            <element signature="e#5558#6370#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/bankatm/bankatmList/BankAtmListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="96">
+          <caret line="107" column="27" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
+          <folding>
+            <element signature="e#3595#3596#0" expanded="true" />
+            <element signature="e#3636#3637#0" expanded="true" />
+            <element signature="e#5053#5691#0" />
+            <element signature="e#5413#5441#0" expanded="true" />
+            <element signature="e#5633#5661#0" expanded="true" />
+            <element signature="e#5737#6555#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-tr-rTR/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="390">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/NavigationUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en-rUS/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ParkKitApp.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en-rGB/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#2413#2433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/CommonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="method#loadJSONFromAsset#0;class#CommonUtils#0" />
-            <element signature="method#showLoadingDialog#0;class#CommonUtils#0" />
-            <element signature="method#setRandomMaterialColorByType#0;class#CommonUtils#0" />
-            <element signature="method#setCache#0;class#CommonUtils#0" />
-            <element signature="method#getAddressText#0;class#CommonUtils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/BindingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/MessageUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.cketti.mailto/email-intent-builder/1.0.0/40afcf6383356783c26a546fba57eec9e7992412/email-intent-builder-1.0.0-sources.jar!/de/cketti/mailto/EmailIntentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.0.1/ae10d2e1965b944830c2c2aaf154765ceb32e0bc/core-1.0.1-sources.jar!/androidx/core/app/ShareCompat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="209" column="36" selection-start-line="209" selection-start-column="36" selection-end-line="209" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android-sdk/sources/android-28/android/content/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="1686" column="25" selection-start-line="1686" selection-start-column="25" selection-end-line="1686" selection-end-column="25" />
+        <state relative-caret-position="395">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="352">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/utils/AppUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/main/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="137">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
           <folding>
-            <element signature="e#585#621#0" expanded="true" />
-            <element signature="e#1088#1142#0" expanded="true" />
-            <element signature="e#1424#1540#0" expanded="true" />
-            <element signature="e#1721#1848#0" expanded="true" />
-            <element signature="e#2519#2572#0" expanded="true" />
-            <element signature="e#2647#2695#0" expanded="true" />
-            <element signature="e#3376#3438#0" expanded="true" />
-            <element signature="e#3513#3570#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/developersancho/parkkit/ui/menu/MenuActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+        <state relative-caret-position="182">
+          <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
           <folding>
-            <element signature="method#getViewModel#0;class#MenuActivity#0" />
-            <element signature="method#prepareListData#0;class#MenuActivity#0" />
-            <element signature="e#5652#5681#0" expanded="true" />
-            <element signature="e#6012#6044#0" expanded="true" />
-            <element signature="e#6386#6420#0" expanded="true" />
-            <element signature="e#6755#6788#0" expanded="true" />
-            <element signature="method#newIntent#0;class#MenuActivity#0" />
-            <element signature="method#onStart#0;class#MenuActivity#0" />
-            <element signature="method#registerReceiverGps#0;class#MenuActivity#0" />
-            <element signature="method#registerReceiverInternet#0;class#MenuActivity#0" />
-            <element signature="method#onBackPressed#0;class#MenuActivity#0" />
-            <element signature="method#onDestroy#0;class#MenuActivity#0" />
-            <element signature="method#onDrawerSlide#0;class#MenuActivity#0" />
-            <element signature="method#onDrawerOpened#0;class#MenuActivity#0" />
-            <element signature="method#onDrawerClosed#0;class#MenuActivity#0" />
-            <element signature="method#onDrawerStateChanged#0;class#MenuActivity#0" />
-            <element signature="class#GroupCollapse#0;class#MenuActivity#0" />
-            <element signature="class#GroupExpand#0;class#MenuActivity#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

@@ -28,9 +28,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
-
-import com.amitshekhar.DebugDB;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -193,7 +190,7 @@ public class MenuActivity extends BaseActivity<ActivityMenuBinding, MenuViewMode
         if (!GpsUtils.isGpsEnabled(MenuActivity.this)) {
             AppUtils.showGPSDisabledAlertToUser(MenuActivity.this);
         }
-        DebugDB.getAddressLog();
+        //DebugDB.getAddressLog();
     }
 
     private void registerReceiverGps() {

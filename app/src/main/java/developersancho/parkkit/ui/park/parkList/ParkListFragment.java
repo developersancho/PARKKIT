@@ -1,12 +1,23 @@
 package developersancho.parkkit.ui.park.parkList;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.DecimalFormat;
+import java.util.Locale;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -105,6 +116,62 @@ public class ParkListFragment extends BaseFragment<FragmentParkListBinding, Park
 
     @Override
     public void onParkClicked(Park park) {
-        Toast.makeText(getContext(), "Adress : " + park.getAddress(), Toast.LENGTH_LONG).show();
+        showDetailDialog(park);
     }
+
+    private void showDetailDialog(Park item) {
+        final AlertDialog.Builder dialog = new AlertDialog.Builder(getContext());
+
+        LayoutInflater layoutInflater = LayoutInflater.from(getContext());
+        View detail_view = layoutInflater.inflate(R.layout.dialog_detail, null);
+        TextView txtNameDialog = (TextView) detail_view.findViewById(R.id.txtNameDialog);
+        TextView txtAddressDialog = (TextView) detail_view.findViewById(R.id.txtAddressDialog);
+        TextView txtDistanceDialog = (TextView) detail_view.findViewById(R.id.txtDistanceDialog);
+        TextView txtTypeDialog = (TextView) detail_view.findViewById(R.id.txtTypeDialog);
+        Button btnShareDialog = (Button) detail_view.findViewById(R.id.btnShareDialog);
+        Button btnRoadDialog = (Button) detail_view.findViewById(R.id.btnRoadDialog);
+        ImageView imgLogoDialog = (ImageView) detail_view.findViewById(R.id.imgLogoDialog);
+        dialog.setView(detail_view);
+
+        txtNameDialog.setText(item.getName());
+        txtAddressDialog.setText(item.getAddress());
+        DecimalFormat df = new DecimalFormat("#.##");
+        txtDistanceDialog.setText(String.valueOf(df.format(Double.valueOf(item.getDistance()))) + " Km");
+        imgLogoDialog.setBackground(getResources().getDrawable(R.drawable.accountant));
+        txtTypeDialog.setText(item.getBrand());
+
+        btnShareDialog.setOnClickListener(v -> {
+            String uri = String.format(Locale.ENGLISH, "http://maps.google.com/maps?daddr=%f,%f (%s)",
+                    item.getxCoor(),
+                    item.getyCoor(),
+                    item.getName());
+
+            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String ShareSub = getString(R.string.shareVia);
+            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, ShareSub);
+            sharingIntent.putExtra(Intent.EXTRA_TEXT, uri);
+            startActivity(Intent.createChooser(sharingIntent, getString(R.string.shareVia)));
+        });
+
+        btnRoadDialog.setOnClickListener(v -> {
+            String latitude = String.valueOf(item.getxCoor());
+            String longitude = String.valueOf(item.getyCoor());
+            Uri gmmIntentUri = Uri.parse("google.navigation:q=" + latitude + "," + longitude);
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+
+            try {
+                if (mapIntent.resolveActivity(getActivity().getPackageManager()) != null) {
+                    startActivity(mapIntent);
+                }
+            } catch (NullPointerException e) {
+                Log.e("MAP", "onClick: NullPointerException: Couldn't open map." + e.getMessage());
+                Toast.makeText(getActivity(), "Couldn't open map", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        dialog.show();
+    }
+
 }

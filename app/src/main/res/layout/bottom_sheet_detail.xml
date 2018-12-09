@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@color/lightWhite"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/imgLogoMarker"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/txtTypeMarker"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:gravity="left|center_vertical"
+                    android:textAlignment="center"
+                    android:textColor="#444"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    tools:text="İSPARK NOKTASI" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtDistanceMarker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:fontFamily="@font/montserrat_medium"
+                android:paddingBottom="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                tools:text="0,48 km" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="0dp"
+                android:alpha="0.12"
+                android:background="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/icon_penguin" />
+
+                <TextView
+                    android:id="@+id/txtNameMarker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textColor="@android:color/primary_text_light"
+                    tools:text="İspark-FSM Eğitim Ve Araştırma Hastanesi" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="0dp"
+                android:alpha="0.12"
+                android:background="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/icon_map_marker" />
+
+                <TextView
+                    android:id="@+id/txtAddressMarker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textColor="@android:color/primary_text_light"
+                    tools:text="İçerenköy Mah. Fatih Sultan Mehmet Hastanesi Yolu Ataşehir İstanbul" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="0dp"
+                android:alpha="0.12"
+                android:background="@android:color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShareMarker"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/bottom_share_location"
+                android:textColor="@color/lightGray"
+                android:textSize="18sp"
+                app:backgroundTint="@color/colorPrimary"
+                app:cornerRadius="6dp" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/road_fab"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:clickable="true"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabCustomSize="45dp"
+            app:srcCompat="@drawable/ic_directions_24dp"
+            app:tint="@color/lightWhite" />
+
+    </FrameLayout>
+
+</RelativeLayout>

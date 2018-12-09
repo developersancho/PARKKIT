@@ -26,7 +26,7 @@
     <string name="oto_service_home_title">CAR SERVICE</string>
     <string name="parking_title">PARKING</string>
     <string name="menu_title">PARKKIT</string>
-    <string name="menu_version">Version 1.0.0</string>
+    <string name="menu_version">Version 1.0.1</string>
 
     <string name="warning_gps">WARNING</string>
     <string name="message_gps">Please be sure gps is open...</string>
@@ -35,4 +35,9 @@
     <string name="menu_contact">CONTACT</string>
     <string name="menu_share_app">SHARE APP</string>
     <string name="menu_rate_app">RATE APP</string>
+
+    <string name="shareVia">Share App</string>
+    <string name="chooseMapApp">Choose Map</string>
+    <string name="bottom_share_location">SHARE LOCATION</string>
+    <string name="dialog_direction">DIRECTION</string>
 </resources>

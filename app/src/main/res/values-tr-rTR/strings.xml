@@ -27,7 +27,7 @@
     <string name="oto_service_home_title">OTO SERVİS</string>
     <string name="parking_title">OTOPARK</string>
     <string name="menu_title">PARKKIT</string>
-    <string name="menu_version">Versiyon 1.0.0</string>
+    <string name="menu_version">Versiyon 1.0.1</string>
 
     <string name="warning_gps">UYARI</string>
     <string name="message_gps">Lütfen konumunuzun açık olduğundan emin olunuz...</string>
@@ -35,4 +35,9 @@
     <string name="menu_contact">BİZE ULAŞIN</string>
     <string name="menu_share_app">UYG. PAYLAŞ</string>
     <string name="menu_rate_app">UYG. OYLA</string>
+
+    <string name="shareVia">Uygulamayı Paylaş</string>
+    <string name="chooseMapApp">Harita Uygulaması Seçiniz.</string>
+    <string name="bottom_share_location">KONUMU PAYLAŞ</string>
+    <string name="dialog_direction">YOL TARİFİ</string>
 </resources>
