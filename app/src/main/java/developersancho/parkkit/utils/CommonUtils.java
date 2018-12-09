@@ -1,9 +1,7 @@
 package developersancho.parkkit.utils;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.AssetManager;
 import android.content.res.TypedArray;
 import android.graphics.Color;
@@ -18,7 +16,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import androidx.appcompat.app.AlertDialog;
 import developersancho.parkkit.R;
 import okhttp3.Cache;
 

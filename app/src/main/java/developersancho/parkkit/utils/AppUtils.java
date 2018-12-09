@@ -8,9 +8,34 @@ import android.provider.Settings;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ShareCompat;
+import de.cketti.mailto.EmailIntentBuilder;
 import developersancho.parkkit.R;
 
 public class AppUtils {
+
+    public static void sendFeedback(Context context) {
+        boolean success = EmailIntentBuilder.from(context)
+                .to("developersancho@gmail.com")
+                .subject(context.getString(R.string.app_name))
+                .start();
+
+        if (!success) {
+            MessageUtils.showSnackBar(getActivity(context), "İşlem Başarısız.");
+        }
+    }
+
+    public static void shareApplication(Context context) {
+        final String appPackageName = context.getPackageName();
+
+        Intent shareIntent = ShareCompat.IntentBuilder.from(getActivity(context))
+                .setType("text/plain")
+                .setText(context.getString(R.string.app_google_play_store_link) + appPackageName)
+                .getIntent();
+        if (shareIntent.resolveActivity(context.getPackageManager()) != null) {
+            context.startActivity(shareIntent);
+        }
+    }
 
     public static void openPlayStoreForApp(Context context) {
         final String appPackageName = context.getPackageName();

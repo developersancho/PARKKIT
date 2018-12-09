@@ -15,7 +15,6 @@
         android:required="true" />
 
     <application
-        tools:replace="android:icon"
         android:name=".ParkKitApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +22,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
@@ -75,6 +75,7 @@
         <activity
             android:name=".ui.bankatm.BankAtmActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".ui.menu.MenuActivity"></activity>
     </application>
 
 </manifest>

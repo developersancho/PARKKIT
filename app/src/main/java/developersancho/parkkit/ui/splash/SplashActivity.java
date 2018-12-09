@@ -7,6 +7,7 @@ import developersancho.parkkit.R;
 import developersancho.parkkit.databinding.ActivitySplashBinding;
 import developersancho.parkkit.ui.base.BaseActivity;
 import developersancho.parkkit.ui.main.MainActivity;
+import developersancho.parkkit.ui.menu.MenuActivity;
 import developersancho.parkkit.utils.AppConstants;
 
 import android.Manifest;
@@ -62,7 +63,7 @@ public class SplashActivity extends BaseActivity<ActivitySplashBinding, SplashVi
                         if (report.areAllPermissionsGranted()) {
                             // farklı bir thread üzerinde gerçekleştiriyoruz.. main threadde app crash olmasın diye
                             new Handler().postDelayed(() -> {
-                                Intent intent = MainActivity.newIntent(SplashActivity.this);
+                                Intent intent = MenuActivity.newIntent(SplashActivity.this);
                                 startActivity(intent);
                                 finish();
                             }, AppConstants.DELAY_TIME);

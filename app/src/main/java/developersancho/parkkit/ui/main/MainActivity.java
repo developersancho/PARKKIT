@@ -30,6 +30,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.amitshekhar.DebugDB;
 import com.github.florent37.rxgps.RxGps;
 import com.google.gson.Gson;
 
@@ -77,7 +78,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding, MainViewMode
         }
         findLocation();
         findLocationAddress();
-        //DebugDB.getAddressLog();
+        DebugDB.getAddressLog();
     }
 
     private void registerReceiverGps() {

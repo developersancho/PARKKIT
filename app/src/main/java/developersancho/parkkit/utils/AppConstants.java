@@ -16,4 +16,6 @@ public class AppConstants {
     public static final String CONNECTIVITY_ACTION = "android.net.conn.CONNECTIVITY_CHANGE";
     public static final String GPS_ACTION = "android.location.PROVIDERS_CHANGED";//"android.location.GPS_ENABLED_CHANGE";
     public static final int DURATION_COLOR_CHANGE_MS = 300;
+    public static final float MAX_SCALE = 1.0f;
+    public static final float MIN_SCALE = 0.9f;
 }

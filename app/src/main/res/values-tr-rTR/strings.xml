@@ -26,4 +26,13 @@
     <string name="oto_yikama_home_title">OTO YIKAMA</string>
     <string name="oto_service_home_title">OTO SERVİS</string>
     <string name="parking_title">OTOPARK</string>
+    <string name="menu_title">PARKKIT</string>
+    <string name="menu_version">Versiyon 1.0.0</string>
+
+    <string name="warning_gps">UYARI</string>
+    <string name="message_gps">Lütfen konumunuzun açık olduğundan emin olunuz...</string>
+    <string name="menu_home">ANASAYFA</string>
+    <string name="menu_contact">BİZE ULAŞIN</string>
+    <string name="menu_share_app">UYG. PAYLAŞ</string>
+    <string name="menu_rate_app">UYG. OYLA</string>
 </resources>

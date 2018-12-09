@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.3"
+        android:background="#ff0a56ac" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65.0dip">
+
+        <TextView
+            android:id="@+id/submenu"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:alpha="1.0"
+            android:gravity="center_vertical"
+            android:padding="5.0dip"
+            android:textColor="@color/lightGray"
+            android:textSize="13.0sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.menu.MenuActivity">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="developersancho.parkkit.ui.menu.MenuViewModel" />
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/selago">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:elevation="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <ImageView
+                    android:id="@+id/home_dashboard"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_dashboard_24dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/fredoka"
+                    android:padding="2dp"
+                    android:text="@string/parkkit_title"
+                    android:textColor="@color/design_default_color_background"
+                    android:textSize="26sp" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize">
+
+            <com.github.florent37.shapeofview.shapes.ArcView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:shape_arc_height="15dp"
+                app:shape_arc_position="bottom">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="9">
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2">
+
+                                <com.airbnb.lottie.LottieAnimationView
+                                    android:id="@+id/animation_view"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    app:lottie_autoPlay="true"
+                                    app:lottie_loop="true"
+                                    app:lottie_rawRes="@raw/funky_chicken" />
+
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="7">
+
+                                <TextView
+                                    android:id="@+id/editSearch"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:ems="10"
+                                    android:fontFamily="@font/montserrat_medium"
+                                    android:padding="0dp"
+                                    android:textSize="11sp"
+                                    tools:text="Merkez mahallesi şener sokak no:15 Beykoz/İSTANBUL" />
+
+                                <com.github.ybq.android.spinkit.SpinKitView
+                                    android:id="@+id/loader"
+                                    style="@style/SpinKitView.Large.Wave"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="30dp"
+                                    android:layout_centerInParent="true"
+                                    app:SpinKit_Color="@color/colorAccent" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+
+            </com.github.florent37.shapeofview.shapes.ArcView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/searchView"
+                android:layout_marginBottom="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:weightSum="2">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="8dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/imageView1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:onClick="@{ () -> viewModel.onGotoGasStationActivity() }"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/gasstation"
+                                    app:riv_border_color="#FFF"
+                                    app:riv_border_width="0dp"
+                                    app:riv_corner_radius="8dp"
+                                    app:riv_mutate_background="true"
+                                    app:riv_oval="false"
+                                    app:riv_tile_mode="clamp" />
+
+
+                                <View
+                                    android:id="@+id/opacityFilter"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:alpha="0.4"
+                                    android:background="@color/darkblue"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:fontFamily="@font/montserrat_medium"
+                                    android:text="@string/akaryakit_home_title"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="8dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:onClick="@{ () -> viewModel.onGotoBankAtmActivity() }"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/atm"
+                                    app:riv_border_color="#FFF"
+                                    app:riv_border_width="0dip"
+                                    app:riv_corner_radius="8dp"
+                                    app:riv_mutate_background="true"
+                                    app:riv_oval="false"
+                                    app:riv_tile_mode="clamp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:alpha="0.4"
+                                    android:background="@color/darkblue"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:fontFamily="@font/montserrat_medium"
+                                    android:text="@string/atm_banka_home_title"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:weightSum="2">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="8dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:onClick="@{ () -> viewModel.onGotoCarWashActivity() }"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/carwash"
+                                    app:riv_border_color="#FFF"
+                                    app:riv_border_width="0dp"
+                                    app:riv_corner_radius="8dp"
+                                    app:riv_mutate_background="true"
+                                    app:riv_oval="false"
+                                    app:riv_tile_mode="clamp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:alpha="0.4"
+                                    android:background="@color/darkblue"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:fontFamily="@font/montserrat_medium"
+                                    android:text="@string/oto_yikama_home_title"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="8dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:onClick="@{ () -> viewModel.onGotoCarServiceActivity() }"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/carsevice"
+                                    app:riv_border_color="#FFF"
+                                    app:riv_border_width="0dp"
+                                    app:riv_corner_radius="8dp"
+                                    app:riv_mutate_background="true"
+                                    app:riv_oval="false"
+                                    app:riv_tile_mode="clamp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:alpha="0.4"
+                                    android:background="@color/darkblue"></View>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:fontFamily="@font/montserrat_medium"
+                                    android:text="@string/oto_service_home_title"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <com.andexert.library.RippleView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:rv_centered="true">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:onClick="@{ () -> viewModel.onGotoParkActivity() }"
+                            android:src="@drawable/otopark"
+                            app:civ_border_color="@color/selago"
+                            app:civ_border_width="6dp" />
+
+                    </com.andexert.library.RippleView>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/fredoka"
+                        android:text="@string/otopark_home_title"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>
